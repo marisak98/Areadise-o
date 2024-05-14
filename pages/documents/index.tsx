@@ -29,8 +29,8 @@ export default function Documents() {
               Manage all your documents in one place.
             </p>
           </div>
-          {/* <div className="flex items-center justify-between gap-4"> */}
-          {/* <AddDocumentModal>
+          <div className="flex items-center justify-between gap-4">
+            <AddDocumentModal>
               <Button
                 size="icon"
                 className="fixed bottom-6 right-5 z-30 lg:hidden sm:bottom-0 sm:right-0 sm:relative w-10 sm:w-44 h-10 sm:h-10"
@@ -40,9 +40,9 @@ export default function Documents() {
                   <PlusIcon className="w-6 h-6" />
                 </span>
               </Button>
-            </AddDocumentModal> */}
-          <div className="flex items-center gap-x-1">
-            <AddDocumentModal>
+            </AddDocumentModal>
+            {/*<div className="flex items-center gap-x-1">*/}
+            {/* <AddDocumentModal>
               <Button
                 className="flex-1 text-left group flex gap-x-3 items-center justify-start px-3"
                 title="Add New Document"
@@ -50,7 +50,7 @@ export default function Documents() {
                 <PlusIcon className="h-5 w-5 shrink-0" aria-hidden="true" />
                 <span>Add New Document</span>
               </Button>
-            </AddDocumentModal>
+            </AddDocumentModal>*/}
             <AddFolderModal>
               <Button
                 size="icon"
